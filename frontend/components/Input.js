@@ -36,7 +36,7 @@ STEP 6:
 import React, { useState } from 'react'; /* STEP 0 */
 
 export default function Input() {
-const [inputValue, setInputValue] = useState('12345678910')
+const [inputValue, setInputValue] = useState('')
 
   const changeInput = evt => {
     // When the input changes, its whole value can be found inside the event object.
